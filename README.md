@@ -7,7 +7,7 @@ Dockerized Jupyter notebook for running content from the [2nd Edition of the Mac
 To create and run notebooks using Python 3.10 with docker, we can build an image and run a container with this working directory mounted as a volume:
 
 ```bash
-DOCKER_BUILDKIT=1 docker build -t machine-learning-cookbook .
+DOCKER_BUILDKIT=1 docker build -t ml-python-cookbook-runner .
 docker run -it -v $(pwd):/workspace -p 8888:8888 ml-python-cookbook-runner 
 ```
 

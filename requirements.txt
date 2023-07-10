@@ -6,6 +6,8 @@ pandas
 openpyxl
 fsspec
 s3fs
+pandavro
+sqlalchemy
 boto3
 requests
 bs4

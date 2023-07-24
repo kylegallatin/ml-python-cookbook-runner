@@ -1,7 +1,7 @@
 notebook
 numpy
 scipy
-sklearn
+scikit-learn
 pandas
 openpyxl
 fsspec
@@ -16,7 +16,7 @@ transformers[torch]
 pip-tools
 opencv-python-headless
 matplotlib
-torch
+torch>=2.0
 torchvision
 tensorflow
 tensorflow_hub
